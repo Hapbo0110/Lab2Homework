@@ -16,5 +16,11 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ClassA a = new ClassA();
+            label1.Text = a.GetNumber().ToString();
+        }
     }
 }
